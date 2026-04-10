@@ -1,0 +1,25 @@
+pipeline{
+    agent any
+    
+    stages{
+        stage("checkout") {
+    steps {
+        git branch:'main', credentialsId: 'logsid', url: 'https://github.com/logeshlee/Linux_shell_learning.git'
+        
+    }
+        post{
+            always{
+                echo "build finished"
+            }
+        }
+            
+        }
+        stage("build"){
+            steps{
+            sh 'ls -l'
+            sh 'bash loop_dir.sh'
+                
+            }
+        }
+    }
+}
