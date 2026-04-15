@@ -1,0 +1,1 @@
+cmd_/home/karnex/logesh/chardrv/char_drv.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/karnex/logesh/chardrv/char_drv.ko /home/karnex/logesh/chardrv/char_drv.o /home/karnex/logesh/chardrv/char_drv.mod.o;  true

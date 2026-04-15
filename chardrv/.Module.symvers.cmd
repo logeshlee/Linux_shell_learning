@@ -1,0 +1,1 @@
+cmd_/home/karnex/logesh/chardrv/Module.symvers := sed 's/\.ko$$/\.o/' /home/karnex/logesh/chardrv/modules.order | scripts/mod/modpost -m -a  -o /home/karnex/logesh/chardrv/Module.symvers -e -i Module.symvers   -T -
