@@ -1,0 +1,170 @@
+Good observation — those extra letters (`Ss`, `S+`, etc.) are **modifiers** added to the basic state.
+
+---
+
+## 🧠 How to read process state
+
+The `STAT` column in `ps` is:
+
+```text
+<state><extra flags>
+```
+
+So:
+
+* First letter → **main state**
+* Remaining letters → **additional info**
+
+---
+
+## ✅ Main state (you already know)
+
+| Code | Meaning               |
+| ---- | --------------------- |
+| `R`  | Running               |
+| `S`  | Sleeping              |
+| `Z`  | Zombie                |
+| `T`  | Stopped               |
+| `D`  | Uninterruptible sleep |
+
+---
+
+## 🔍 Extra flags (this is what you're seeing)
+
+### 🔹 `s` (lowercase)
+
+👉 **Session leader**
+
+* Process started a session
+* Usually shells or important parent processes
+
+Example:
+
+```text
+Ss
+```
+
+= Sleeping + session leader
+
+---
+
+### 🔹 `+`
+
+👉 **Foreground process (in terminal)**
+
+* Running in the current terminal
+* Gets keyboard input
+
+Example:
+
+```text
+S+
+```
+
+= Sleeping + foreground process
+
+---
+
+### 🔹 `l` (lowercase L)
+
+👉 **Multi-threaded process**
+
+Example:
+
+```text
+Sl
+```
+
+---
+
+### 🔹 `<`
+
+👉 **High priority process**
+
+---
+
+### 🔹 `N`
+
+👉 **Low priority (nice value)**
+
+---
+
+## 🔥 Your examples explained
+
+### 1. `Ss`
+
+```text
+S = Sleeping
+s = Session leader
+```
+
+👉 Common for:
+
+* `bash`
+* `systemd --user`
+
+---
+
+### 2. `S+`
+
+```text
+S = Sleeping
++ = Foreground process
+```
+
+👉 Usually:
+
+* Your current terminal command
+
+---
+
+### 3. Example from your output
+
+```text
+1795 ... Ss systemd --user
+```
+
+👉 Means:
+
+* Sleeping
+* Session leader
+
+---
+
+## 🧪 Try this yourself
+
+Run:
+
+```bash
+ps -o pid,ppid,stat,cmd
+```
+
+You’ll see combinations like:
+
+* `Ss`
+* `S+`
+* `R+`
+
+---
+
+## 🧠 Easy way to remember
+
+* First letter = **what it's doing**
+* Rest = **extra properties**
+
+---
+
+## 🔥 Quick cheat sheet
+
+| Code | Meaning                   |
+| ---- | ------------------------- |
+| `Ss` | Sleeping + session leader |
+| `S+` | Sleeping + foreground     |
+| `R+` | Running + foreground      |
+| `Z`  | Zombie 👻                 |
+
+---
+
+If you want, I can show:
+👉 how to **force each state (`R`, `S`, `Z`, `T`) live** so you can see them in `ps` (very useful for lab exams)
+
