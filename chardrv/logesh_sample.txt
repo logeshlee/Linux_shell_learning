@@ -1,0 +1,1000 @@
+ 1031  ls
+ 1032  git init 
+ 1033  git add .
+ 1034  git remote -v
+ 1035  git commit -m "update"
+ 1036  git remote add origin https://github.com/logeshlee/Linux_shell_learning.git
+ 1037  git remote -v
+ 1038  ls
+ 1039  git add .
+ 1040  git commit -m "update"
+ 1041  ls
+ 1042  git status
+ 1043  git push -u origin main
+ 1044  git push -u origin master
+ 1045  git fetch
+ 1046  git push -u origin master
+ 1047  git pull
+ 1048  git branch --set-upstream-to=origin/master master
+ 1049  git pull
+ 1050  git pull --rebase
+ 1051  git push
+ 1052  git branch -vv
+ 1053  ls 
+ 1054  git log
+ 1055  ls
+ 1056  rm Linux_shell_learning/
+ 1057  rm -r Linux_shell_learning/
+ 1058  git add .
+ 1059  git commit "update"
+ 1060  git commit -m "update2"
+ 1061  git fetch
+ 1062  git log
+ 1063  ls
+ 1064  cd process/
+ 1065  ls
+ 1066  cd ../
+ 1067  git status
+ 1068  <pre><font color="#3465A4"><b>~/logesh</b></font>$ git status
+ 1069  On branch master
+ 1070  Your branch is ahead of &apos;origin/master&apos; by 1 commit.
+ 1071  nothing to commit, working tree clean
+ 1072  git push
+ 1073  git checkout main
+ 1074  ls
+ 1075  git merge master
+ 1076  git merge master --allow-unrelated-histories
+ 1077  ls
+ 1078  git add .
+ 1079  git commit -m "merge master into main"
+ 1080  git push
+ 1081  git remote -v
+ 1082  git commit -m "merge master into main"
+ 1083  git remote set-url origin https://github.com/logeshlee/Linux_shell_learning.git
+ 1084  git remote -v
+ 1085  git push
+ 1086  git branch
+ 1087  git branch -d master
+ 1088  git checkout -b asus_linux
+ 1089  ls
+ 1090  git branch
+ 1091  ls
+ 1092  git branch
+ 1093  git fetch
+ 1094  git branch
+ 1095  git pull
+ 1096  ls
+ 1097  git branch
+ 1098  git push origin --delete master
+ 1099  git branch -a
+ 1100  git fetch
+ 1101  git log
+ 1102  git status
+ 1103  ls
+ 1104  cd python_learning/
+ 1105  ls
+ 1106  vi forloop.py 
+ 1107  python forloop.py 
+ 1108  vi forloop.py 
+ 1109  python forloop.py 
+ 1110  vi forloop.py 
+ 1111  python forloop.py 
+ 1112  vi forloop.py 
+ 1113  python forloop.py 
+ 1114  vi forloop.py 
+ 1115  python forloop.py 
+ 1116  vi forloop.py 
+ 1117  python forloop.py 
+ 1118  vi forloop.py 
+ 1119  python forloop.py 
+ 1120  vi forloop.py 
+ 1121  python forloop.py 
+ 1122  vi forloop.py 
+ 1123  python forloop.py 
+ 1124  vi forloop.py 
+ 1125  python forloop.py 
+ 1126  vi forloop.py 
+ 1127  python forloop.py 
+ 1128  ls
+ 1129  vi while.py
+ 1130  vi while.py 
+ 1131  python while.py 
+ 1132  vi while.py 
+ 1133  python while.py 
+ 1134  vi while.py 
+ 1135  python while.py 
+ 1136  vi while.py 
+ 1137  python while.py 
+ 1138  vi while.py 
+ 1139  python while.py 
+ 1140  vi while.py 
+ 1141  ls
+ 1142  vi funbasic.py
+ 1143  python funbasic.py 
+ 1144  vi funbasic.py
+ 1145  python funbasic.py 
+ 1146  vi funbasic.py
+ 1147  python funbasic.py 
+ 1148  vi funbasic.py
+ 1149  python funbasic.py 
+ 1150  vi funbasic.py
+ 1151  python funbasic.py 
+ 1152  vi funbasic.py
+ 1153  python funbasic.py 
+ 1154  vi funbasic.py
+ 1155  python funbasic.py 
+ 1156  vi funbasic.py
+ 1157  python funbasic.py 
+ 1158  vi funbasic.py
+ 1159  python funbasic.py 
+ 1160  vi funbasic.py
+ 1161  python funbasic.py 
+ 1162  vi funbasic.py
+ 1163  python funbasic.py 
+ 1164  vi funbasic.py
+ 1165  ls
+ 1166  git add .
+ 1167  git commit -m "python learning 31"
+ 1168  git push
+ 1169  git push --set-upstream origin asus_linux 
+ 1170  git push
+ 1171  ls
+ 1172  cd logesh/
+ 1173  ls
+ 1174  cd python_learning/
+ 1175  ls
+ 1176  python3 while.py 
+ 1177  vi while.py 
+ 1178  ls
+ 1179  vi funbasic.py 
+ 1180  vi innerfun.py
+ 1181  python3 innerfun.py 
+ 1182  vi innerfun.py
+ 1183  python3 innerfun.py 
+ 1184  vi innerfun.py
+ 1185  python3 innerfun.py 
+ 1186  vi innerfun.py
+ 1187  python3 innerfun.py 
+ 1188  vi innerfun.py
+ 1189  python3 innerfun.py 
+ 1190  vi innerfun.py
+ 1191  python3 innerfun.py 
+ 1192  vi slice.py
+ 1193  python slice.py 
+ 1194  vi slice.py
+ 1195  python slice.py 
+ 1196  vi slice.py
+ 1197  python slice.py 
+ 1198  ls
+ 1199  git status
+ 1200  git add innerfun.py slice.py 
+ 1201  git commit -m "added nested fun and slicing"
+ 1202  git push 
+ 1203  git status
+ 1204  git log
+ 1205  ls
+ 1206  cd ~
+ 1207  ls /var/lib/jenkins/
+ 1208  ls /var/lib/jenkins/jobs/
+ 1209  shutdown
+ 1210  cd logesh/
+ 1211  ls
+ 1212  cd python_learning/
+ 1213  ls
+ 1214  vi readgenerator.py
+ 1215  python3 readgenerator.py 
+ 1216  vi readgenerator.py
+ 1217  python3 readgenerator.py 
+ 1218  vi readgenerator.py
+ 1219  python3 readgenerator.py 
+ 1220  vi readgenerator.py
+ 1221  python3 readgenerator.py 
+ 1222  vi readgenerator.py
+ 1223  python3 readgenerator.py 
+ 1224  dmesg > logs.txt
+ 1225  vi logs.txt 
+ 1226  vi readgenerator.py
+ 1227  python3 readgenerator.py 
+ 1228  vi readgenerator.py
+ 1229  python3 readgenerator.py 
+ 1230  vi readgenerator.py
+ 1231  python3 readgenerator.py 
+ 1232  vi readgenerator.py
+ 1233  python3 readgenerator.py 
+ 1234  vi readgenerator.py
+ 1235  ls
+ 1236  vi innerfun.py 
+ 1237  vi decorat.py
+ 1238  python decorat.py 
+ 1239  vi decorat.py
+ 1240  python decorat.py 
+ 1241  vi decorat.py
+ 1242  python decorat.py 
+ 1243  vi decorat.py
+ 1244  python decorat.py 
+ 1245  vi decorat.py
+ 1246  vi exceptions.py
+ 1247  python3 exceptions.py 
+ 1248  vi exceptions.py
+ 1249  python3 exceptions.py 
+ 1250  vi exceptions.py
+ 1251  python3 exceptions.py 
+ 1252  vi exceptions.py
+ 1253  python3 exceptions.py 
+ 1254  vi exceptions.py
+ 1255  python3 exceptions.py 
+ 1256  git add .
+ 1257  git status
+ 1258  git commit -m "exceptions , decorator , generators in python added "
+ 1259  git push
+ 1260  git log -5
+ 1261  myexception.py
+ 1262  vi myexception.py
+ 1263  python3 myexception.py 
+ 1264  vi myexception.py
+ 1265  python3 myexception.py 
+ 1266  vi myexception.py
+ 1267  python3 myexception.py 
+ 1268  vi myexception.py
+ 1269  python3 myexception.py 
+ 1270  vi myexception.py
+ 1271  python3 myexception.py 
+ 1272  git status
+ 1273  git tag -a v1.0 -m "first time pushing and tagging"
+ 1274  git push origin v1.0
+ 1275  git log
+ 1276  git tag
+ 1277  git show v1.0
+ 1278  history | tail -5
+ 1279  ls
+ 1280  cd logesh/
+ 1281  ls
+ 1282  docker --version
+ 1283  snap info docker
+ 1284  netstat -tuln
+ 1285  ps | minicom
+ 1286  ps | mini
+ 1287  ps
+ 1288  fastboot devices
+ 1289  adb devices
+ 1290  cd ~/Android_BSP/
+ 1291  vi help.txt
+ 1292  ps
+ 1293  ps 
+ 1294  kill -9 minicom
+ 1295  lsusb
+ 1296  dmesg | tail -n 20
+ 1297  ls
+ 1298  cd Android_BSP/
+ 1299  ls
+ 1300  cd imx-android-11.0.0_1.2.1/
+ 1301  ls
+ 1302  cd android_build/
+ 1303  ls
+ 1304  cd out/target/product/phyboard_pollux/
+ 1305  ls
+ 1306  minicom -D /dev/ttyUSB0 -b 115200
+ 1307  clear
+ 1308  ls
+ 1309  history | dd
+ 1310  history | sudo dd 
+ 1311  history | grep "sudo dd="
+ 1312  history | grep "dd="
+ 1313  history | grep "if"
+ 1314  history | grep "dd"
+ 1315  ls
+ 1316  history | grep -i "imx-sdcard"
+ 1317  sudo ./imx-sdcard-partition.sh -f imx8mp -D ./ /dev/sda
+ 1318  sync
+ 1319  minicom -D /dev/ttyUSB0 -b 115200
+ 1320  ls
+ 1321  cd ../../../
+ 1322  ls
+ 1323  ls -l 
+ 1324  cd ../
+ 1325  ls
+ 1326  source build/envsetup.sh 
+ 1327  lunch 72
+ 1328  ./imx-make.sh boot.img
+ 1329  ./imx-make.sh bootimage
+ 1330  ls
+ 1331  cd vendor/
+ 1332  ls
+ 1333  cd nxp
+ 1334  cd ../
+ 1335  grep -ir "sepolicy" .
+ 1336  ls
+ 1337  cd nxp
+ 1338  ls
+ 1339  cd ..
+ 1340  ls
+ 1341  cd nxp-opensource/
+ 1342  ls
+ 1343  cd imx
+ 1344  ls
+ 1345  cd display/
+ 1346  ls
+ 1347  find . -type f -name "*.te" -o -name "*.fc"
+ 1348  ls
+ 1349  cd display/
+ 1350  ls
+ 1351  cd ../../
+ 1352  ls
+ 1353  ls -d */ | grep -i sepolicy
+ 1354  ls -d */
+ 1355  find . -type d -iname "*sepolicy*"
+ 1356  cd evs/sepolicy/
+ 1357  ls
+ 1358  vi surfaceflinger.te 
+ 1359  m
+ 1360  clear
+ 1361  cd ~/Android_BSP/imx-android-11.0.0_1.2.1/android_build/
+ 1362  ls
+ 1363  cd system/
+ 1364  ls
+ 1365  cd ../
+ 1366  ls
+ 1367  find . -type d 
+ 1368  find . -type d -name "priv"
+ 1369  find . -type d -name "app"
+ 1370  ls
+ 1371  cd vendor/
+ 1372  ls
+ 1373  cd nxp-opensource/
+ 1374  ls
+ 1375  cd imx
+ 1376  ls
+ 1377  cd vehicle/
+ 1378  ls
+ 1379  cd ../
+ 1380  ls
+ 1381  cd ../
+ 1382  ls
+ 1383  CD ../
+ 1384  LS
+ 1385  ls
+ 1386  cd ../
+ 1387  ls
+ 1388  cd system/
+ 1389  ls
+ 1390  cd ../
+ 1391  ls
+ 1392  cd out/
+ 1393  ls
+ 1394  cd target/
+ 1395  ls
+ 1396  cd product/
+ 1397  ls
+ 1398  cd phyboard_pollux/
+ 1399  ls
+ 1400  ls -l *.img
+ 1401  history | grep -i "./imx-sdcard" | tail -5
+ 1402  sudo ./imx-sdcard-partition.sh -f imx8mp -D ./ /dev/sda
+ 1403  minicom -D /dev/ttyUSB0 -b 115200minicom -D /dev/ttyUSB0 -b 115200
+ 1404  ls
+ 1405  cd ../../../
+ 1406  cd ../
+ 1407  ls
+ 1408  cd ../
+ 1409  ls
+ 1410  cd ../
+ 1411  ls
+ 1412  cd debug/
+ 1413  ls
+ 1414  cd phyboard_pollux/
+ 1415  ls
+ 1416  sudo ./imx-sdcard-partition.sh -f imx8mp -D ./ /dev/sda
+ 1417  minicom -D /dev/ttyUSB0 -b 115200minicom -D /dev/ttyUSB0 -b 115200
+ 1418  ls
+ 1419  cd ../
+ 1420  cd BSP-Android-NXP-i.MX8MP-ALPHA1/
+ 1421  ls
+ 1422  sudo ./imx-sdcard-partition.sh -f imx8mp -D ./ /dev/sda
+ 1423  sync
+ 1424  minicom -D /dev/ttyUSB0 -b 115200minicom -D /dev/ttyUSB0 -b 115200
+ 1425  kill
+ 1426  kill -9 min
+ 1427  kill -9 minicom
+ 1428  ps
+ 1429  minicom -D /dev/ttyUSB0 -b 115200minicom -D /dev/ttyUSB0 -b 115200
+ 1430  fastboot devices
+ 1431  fastboot reboot
+ 1432  fastboot devices
+ 1433  minicom -D /dev/ttyUSB0 -b 115200minicom -D /dev/ttyUSB0 -b 115200
+ 1434  ps
+ 1435  cd ~/Android_BSP/
+ 1436  ls
+ 1437  cd imx-android-11.0.0_1.2.1/
+ 1438  ls
+ 1439  cd android_build/
+ 1440  ls
+ 1441  cd vendor/
+ 1442  ls
+ 1443  cd nxp-opensource/
+ 1444  ls
+ 1445  cd uboot-imx/
+ 1446  ls
+ 1447  cd dts/
+ 1448  ls
+ 1449  cd ../
+ 1450  ls
+ 1451  cd ../../../../../
+ 1452  cd imx-android-11.0.0_1.2.1/
+ 1453  cd android_build/
+ 1454  ls
+ 1455  ps
+ 1456  top
+ 1457  htop
+ 1458  minicom -D /dev/ttyUSB0 -b 115200
+ 1459  lsusb
+ 1460  lsblk
+ 1461  minicom -D /dev/ttyUSB0 -b 115200
+ 1462  cd vendor/nxp-opensource/uboot-imx/
+ 1463  ls
+ 1464  cd arch/arm/
+ 1465  ls
+ 1466  cd dts/
+ 1467  ls
+ 1468  grep "imx8mp"
+ 1469  ls | grep -i "imx8mp"
+ 1470  ls | grep -i ""
+ 1471  ls | grep -i "imx8mp"
+ 1472  cd ../
+ 1473  ls
+ 1474  cd ../
+ 1475  ls
+ 1476  find -type f -name "imx8mp-phyboard-pollux*"
+ 1477  find -type f -name "imx8mp-phyboard*"
+ 1478  find -type f -name "imx8mp*"
+ 1479  find -type f -name "imx8mp-phyboard-pollux.dtb"
+ 1480  find -type f -name "imx8mp-phyboard-pollux"
+ 1481  cd ../
+ 1482  find -type f -name "imx8mp-phyboard-pollux"
+ 1483  cd uboot-imx/
+ 1484  ls
+ 1485  vi Makefile 
+ 1486  ls arch/arm64/boot/dts/freescale/imx8mp*.dts
+ 1487  ls
+ 1488  ls arch/arm64/boot/dts/freescale
+ 1489  ls arch/arm64/boot/dts/
+ 1490  ls ./arch/arm64/boot/dts/freescale/imx8mp*.dts
+ 1491  ls ./arch/arm64/boot/
+ 1492  ls ./arch/arm64/
+ 1493  ls ./arch/
+ 1494  ls ./arch/arm/boot/dts/freescale/imx8mp*.dts
+ 1495  ls ./arch/arm/boot/dts/freescale/
+ 1496  ls ./arch/arm/
+ 1497  ls ./arch/arm/dts/
+ 1498  ls | grep "phyboar"
+ 1499  ls | grep "pollux"
+ 1500  ls
+ 1501  vi Makefile 
+ 1502  cd ../
+ 1503  ls
+ 1504  cd vendor/nxp-opensource/
+ 1505  ls
+ 1506  cd uboot-imx/
+ 1507  ls
+ 1508  vi Kconfig 
+ 1509  cd ../../
+ 1510  cd ../
+ 1511  source build/envsetup.sh 
+ 1512  lunch 72
+ 1513  ./imx-make.sh 
+ 1514  ls
+ 1515  ipconfig
+ 1516  ifconfig
+ 1517  ls
+ 1518  cd out/
+ 1519  cd target/product/phyboard_pollux/
+ 1520  ls
+ 1521  history | grep "imx-sd"
+ 1522  sudo ./imx-sdcard-partition.sh -f imx8mp -D ./ /dev/sda
+ 1523  sync
+ 1524  adb devices
+ 1525  sudo ./imx-sdcard-partition.sh -f imx8mp -D ./ /dev/sda
+ 1526  ls
+ 1527  fastboot devices
+ 1528  make clean
+ 1529  make 
+ 1530  ls
+ 1531  ls -l
+ 1532  lsblk
+ 1533  sudo dd if=/dev/zero of=/dev/sda bs=4M status=progress
+ 1534  sync
+ 1535  ls
+ 1536  cd logesh/
+ 1537  ls
+ 1538  git status
+ 1539  git add python_learning/myexception.py 
+ 1540  git commit -m "exception"
+ 1541  git push
+ 1542  git branch
+ 1543  git remote -v
+ 1544  git push origin 
+ 1545  git push -u origin 
+ 1546  git push
+ 1547  ls
+ 1548  cd python_learning/
+ 1549  ls
+ 1550  vi exceptions.py 
+ 1551  python3 exceptions.py 
+ 1552  vi exceptions.py 
+ 1553  vi functionarg.py
+ 1554  python3 functionarg.py 
+ 1555  python3 functionarg.py f1
+ 1556  vi functionarg.py
+ 1557  python3 functionarg.py f1
+ 1558  vi functionarg.py
+ 1559  python3 functionarg.py f1
+ 1560  python3 functionarg.py f2
+ 1561  vi functionarg.py 
+ 1562  git -am "pushing with am option"
+ 1563  git commit -am "pushing with am option"
+ 1564  git add functionarg.py 
+ 1565  git commit -am "pushing with am option"
+ 1566  git push
+ 1567  git add -p
+ 1568  vi functionarg.py 
+ 1569  git add -p
+ 1570  ls
+ 1571  ls -a
+ 1572  cd ../
+ 1573  ls -a
+ 1574  cd .git/hooks/
+ 1575  ls
+ 1576  mv post-update.sample post-update
+ 1577  vi post-update 
+ 1578  cd ../
+ 1579  ls
+ 1580  git add .
+ 1581  git commit -m "checking webhooks"
+ 1582  cd .git/hooks/
+ 1583  ls
+ 1584  ls -l
+ 1585  chmod +x post-update 
+ 1586  ls -l
+ 1587  cd ../
+ 1588  ls
+ 1589  git push
+ 1590  cd .git/hooks/
+ 1591  ls
+ 1592  mv commit-msg.sample commit-msg
+ 1593  ls
+ 1594  vi commit-msg 
+ 1595  ls
+ 1596  cd ../
+ 1597  git add .
+ 1598  git commit -m "checking webhook"
+ 1599  ls
+ 1600  vi sample.txt
+ 1601  git add sample.txt 
+ 1602  git commit -m "testing hook"
+ 1603  vi hooks_test.sh
+ 1604  chmod +x hooks_test.sh 
+ 1605  ./hooks_test.sh 
+ 1606  vi hooks_test.sh
+ 1607  ./hooks_test.sh 
+ 1608  git commit --amend "test 2"
+ 1609  git commit --amend -m "test 2"
+ 1610  vi hooks_test.sh
+ 1611  cd .git/hooks/
+ 1612  ls
+ 1613  vi commit-msg 
+ 1614  cd ../..
+ 1615  git commit --amend -m "test 3"
+ 1616  git log --oneline
+ 1617  cd ../
+ 1618  ls
+ 1619  which jenkins
+ 1620  jenkins --version
+ 1621  systemctl start jenkins.service 
+ 1622  systemctl status jenkins.service
+ 1623  ssh user@192.168.80.109
+ 1624  ls
+ 1625  cd Android_BSP/imx-android-11.0.0_1.2.1/
+ 1626  cd android_build/
+ 1627  cd out/target/product/phyboard_pollux/
+ 1628  ls
+ 1629  history | grep "sudo ./imx"
+ 1630  sudo ./imx-sdcard-partition.sh -f imx8mp -D ./ /dev/sda
+ 1631  sync
+ 1632  cd ~/Android_BSP/
+ 1633  ls
+ 1634  cd backup_old_ddr/
+ 1635  ls
+ 1636  cd ../
+ 1637  cd debug/
+ 1638  ls
+ 1639  cd BSP-Android-NXP-i.MX8MP-ALPHA1/
+ 1640  ls
+ 1641  sudo ./imx-sdcard-partition.sh -f imx8mp -D ./ /dev/sda
+ 1642  sync
+ 1643  adb devices
+ 1644  lsusb
+ 1645  cd ../
+ 1646  ls
+ 1647  cd imx-android-11.0.0_1.2.1/
+ 1648  ls
+ 1649  cd android_build/
+ 1650  ls
+ 1651  cd vendor/nxp-opensource/uboot-imx/
+ 1652  ls
+ 1653  cd arch/arm/
+ 1654  ls
+ 1655  cd dts/
+ 1656  ls
+ 1657  cd ../
+ 1658  ls
+ 1659  cd dts/
+ 1660  ls
+ 1661  vi Makefile 
+ 1662  cd ../
+ 1663  cd configs/
+ 1664  ls
+ 1665  cd ../
+ 1666  ls
+ 1667  cd board/ls
+ 1668  cd board/
+ 1669  ls
+ 1670  cd phytec/
+ 1671  ls
+ 1672  cd phycore_imx8mp/
+ 1673  ls
+ 1674  vi phycore-imx8mp.c 
+ 1675  find -name "imx8mp-phycore.dts"
+ 1676  cd ../../../
+ 1677  find -name "imx8mp-phycore.dts"
+ 1678  find -name "imx8mp-*.dts"
+ 1679  ls
+ 1680  cd drivers/
+ 1681  ls
+ 1682  cd ../
+ 1683  ls
+ 1684  cd board/freescale/phyboard_pollux/
+ 1685  cd board/
+ 1686  ls
+ 1687  cd freescale/
+ 1688  ls
+ 1689  cd imx8mp_evk/
+ 1690  ls
+ 1691  vi spl.c 
+ 1692  vi imx8mp_evk.c 
+ 1693  cd ../../../
+ 1694  cd configs/
+ 1695  ls
+ 1696  ls | grep -i "pollux"
+ 1697  ls | grep -i "phytec"
+ 1698  ls | grep -i "imx8mp"
+ 1699  cp phycore-imx8mp_android_defconfig phyboard_pollux_defconfig
+ 1700  vi phyboard_pollux_defconfig 
+ 1701  find -name "phycore-imx8mp.dts"
+ 1702  cd ../
+ 1703  find -name "phycore-imx8mp.dts"
+ 1704  vi ./arch/arm/dts/phycore-imx8mp.dts 
+ 1705  cd ../../../
+ 1706  cd ../
+ 1707  ls
+ 1708  vi imx_android_setup.sh 
+ 1709  repo status
+ 1710  cd android_build/
+ 1711  repo status
+ 1712  minicom -D /dev/ttyUSB0 -b 115200
+ 1713  cd ../../../../../
+ 1714  cd android_build/
+ 1715  ls
+ 1716  source build/envsetup.sh 
+ 1717  lunch 72
+ 1718  ./imx-make.sh help
+ 1719  find . -path "include/configs/phyboard_pollux.h"
+ 1720  ls
+ 1721  ./imx-make.sh bootloader 2>&1 | tee uboot_build.log
+ 1722  grep -i "defconfig"
+ 1723  grep -i "defconfig" uboot_build.log
+ 1724  grep -i "include/configs/*.h" uboot_build.log 
+ 1725  grep -i "include/*.h" uboot_build.log 
+ 1726  grep -i "*.h" uboot_build.log 
+ 1727  grep -i "spl:" uboot_build.log 
+ 1728  grep -i "spl" uboot_build.log 
+ 1729  grep -i "warning" uboot_build.log 
+ 1730  ls
+ 1731  cd out/target/product/phyboard_pollux/
+ 1732  ls
+ 1733  history | grep "./imx-make
+ 1734  history | grep "./imx-make"
+ 1735  history | grep "./imx-sdcard-partition.sh"
+ 1736  minicom -D /dev/ttyUSB0 -b 115200
+ 1737  cd ~/logesh/
+ 1738  ls
+ 1739  git log
+ 1740  ls
+ 1741  vi loop_dir.sh 
+ 1742  cd python_learning/
+ 1743  ls
+ 1744  vi funbasic.py 
+ 1745  vi decorat.py 
+ 1746  systemctl start jenkins.service 
+ 1747  systemctl stop jenkins.service 
+ 1748  ls
+ 1749  ls Downloads/jenkins.war 
+ 1750  ls -l Downloads/jenkins.war 
+ 1751  ls /usr/share/jenkins/
+ 1752  ls -a /usr/share/jenkins/
+ 1753  rm Downloads/jenkins.war 
+ 1754  ls
+ 1755  sudo apt update
+ 1756  sudo apt remove --purge jenkins -y
+ 1757  id jenkins
+ 1758  sudo deluser --remove-home jenkins
+ 1759  sudo apt autoremove -y
+ 1760  which jenkins
+ 1761  systemctl status jenkins
+ 1762  sudo userdel -r jenkins-build 
+ 1763  ps -u jenkins-build
+ 1764  sudo pkill -u jenkins-build
+ 1765  sudo userdel -r jenkins-build
+ 1766  cut -d: -f1 /etc/passwd
+ 1767  getent group sudo
+ 1768  getent group admin
+ 1769  sudo -l -U username
+ 1770  sudo -l -U karnex
+ 1771  groups
+ 1772  ps -u jenkins-build
+ 1773  sudo systemctl | grep jenkins
+ 1774  sudo userdel -r jenkins-build
+ 1775  id jenkins-build
+ 1776  sudo rm -rf /home/jenkins-build
+ 1777  sudo apt update
+ 1778  java -version
+ 1779  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+ 1780  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+ 1781  sudo apt install jenkins
+ 1782  sudo apt update
+ 1783  sudo apt install jenkins
+ 1784  sudo rm -f /usr/share/keyrings/jenkins-keyring.asc
+ 1785  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo gpg --dearmor -o /usr/share/keyrings/jenkins-keyring.gpg
+ 1786  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.gpg] https://pkg.jenkins.io/debian binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+ 1787  sudo apt update
+ 1788  sudo rm -f /etc/apt/sources.list.d/jenkins.list
+ 1789  sudo rm -f /usr/share/keyrings/jenkins*
+ 1790  sudo apt install -y ca-certificates curl gnupg
+ 1791  sudo mkdir -p /usr/share/keyrings
+ 1792  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo gpg --dearmor -o /usr/share/keyrings/jenkins.gpg
+ 1793  echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] https://pkg.jenkins.io/debian binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+ 1794  sudo apt clean
+ 1795  sudo apt update
+ 1796  sudo rm -f /etc/apt/sources.list.d/jenkins.list
+ 1797  sudo rm -f /usr/share/keyrings/jenkins.gpg
+ 1798  sudo mkdir -p /etc/apt/keyrings
+ 1799  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo gpg --dearmor -o /etc/apt/keyrings/jenkins.gpg
+ 1800  echo deb [signed-by=/etc/apt/keyrings/jenkins.gpg] https://pkg.jenkins.io/debian binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+ 1801  sudo apt update
+ 1802  sudo rm -f /etc/apt/sources.list.d/jenkins.list
+ 1803  sudo rm -f /etc/apt/keyrings/jenkins.gpg
+ 1804  sudo rm -f /usr/share/keyrings/jenkins*
+ 1805  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo gpg --dearmor -o /usr/share/keyrings/jenkins-keyring.gpg
+ 1806  echo "deb [trusted=yes] https://pkg.jenkins.io/debian binary/" | sudo tee /etc/apt/sources.list.d/jenkins.list
+ 1807  sudo apt update
+ 1808  sudo rm -f /usr/share/keyrings/jenkins*
+ 1809  sudo rm -f /etc/apt/keyrings/jenkins*
+ 1810  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee /etc/apt/trusted.gpg.d/jenkins.asc > /dev/null
+ 1811  echo "deb https://pkg.jenkins.io/debian binary/" | sudo tee /etc/apt/sources.list.d/jenkins.list
+ 1812  sudo apt update
+ 1813  wget https://pkg.jenkins.io/debian-stable/binary/jenkins_2.528.3_all.deb
+ 1814  sudo dpkg -i jenkins_2.528.3_all.deb
+ 1815  sudo apt -f install -y
+ 1816  sudo dpkg -i jenkins_2.528.3_all.deb
+ 1817  sudo systemctl start jenkins
+ 1818  sudo systemctl enable jenkins
+ 1819  sudo systemctl status jenkins
+ 1820  cat /var/lib/jenkins/secrets/initialAdminPassword
+ 1821  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ 1822  cd logesh/
+ 1823  ls
+ 1824  vi jen.txt
+ 1825  git add -p jen.txt 
+ 1826  git add jen.txt 
+ 1827  git commit -m "jenkins local host detials"
+ 1828  git push
+ 1829  git status 
+ 1830  git add .
+ 1831  git commit
+ 1832  git push
+ 1833  git status
+ 1834  git log -1
+ 1835  git branch
+ 1836  git remote -v
+ 1837  sudo systemctl status jenkins
+ 1838  ls
+ 1839  cd python_learning/
+ 1840  ls
+ 1841  vi readgenerator.py 
+ 1842  vi decorat.py 
+ 1843  cd ../
+ 1844  ls
+ 1845  ./loop_dir.sh 
+ 1846  vi loop_dir.sh 
+ 1847  systemctl stop jenkins
+ 1848  vi Jenkinsfile
+ 1849  ls
+ 1850  mkdir jenkins
+ 1851  mv Jenkinsfile jenkins/
+ 1852  git add .
+ 1853  git commit -m "jenkinsfile"
+ 1854  git push
+ 1855  vi Jenkinsfile
+ 1856  vi jenkins/Jenkinsfile 
+ 1857  git config list
+ 1858  git config lists
+ 1859  git -config lists
+ 1860  git config --list
+ 1861  git status
+ 1862  cd ../
+ 1863  cd ~
+ 1864  ls
+ 1865  cd logesh/
+ 1866  ls
+ 1867  top
+ 1868  du
+ 1869  df
+ 1870  ls
+ 1871  mkdir chardrv
+ 1872  cd chardrv/
+ 1873  ls
+ 1874  vi character_driver
+ 1875  ls
+ 1876  rm character_driver 
+ 1877  vi char_drv.c 
+ 1878  mv char_drv.c char_drv.ko
+ 1879  ls
+ 1880  vi char_drv.ko 
+ 1881  insmod char_drv.ko 
+ 1882  sudo insmod char_drv.ko 
+ 1883  vi char_drv.ko 
+ 1884  modinfo char_drv
+ 1885  modinfo char_drv.ko
+ 1886  vi Makefile
+ 1887  mv char_drv.ko char_drv.c
+ 1888  make
+ 1889  which gcc
+ 1890  which aarch64-linux-gnu-gcc
+ 1891  echo $CC
+ 1892  echo $CROSS_COMPILE
+ 1893  echo $ARCH
+ 1894  vi Makefile
+ 1895  make
+ 1896  sudo insmod char_drv.ko
+ 1897  dmesg | grep -i "char_drv"
+ 1898  dmesg | tail -10
+ 1899  sudo mknod /dev/mychardev c 509 0
+ 1900  sudo chmod 666 /dev/mychardev
+ 1901  echo "hello" > /dev/mychardev
+ 1902  cat /dev/mychardev
+ 1903  dmesg | tail
+ 1904  vi char_drv.
+ 1905  vi char_drv.c 
+ 1906  lsmod
+ 1907  cd ../
+ 1908  cd process/
+ 1909  ls
+ 1910  vi pid.c
+ 1911  gcc pid.c
+ 1912  which gcc
+ 1913  vi pid.c
+ 1914  gcc pid.c
+ 1915  vi pid.c
+ 1916  gcc pid.c
+ 1917  ./a.out 
+ 1918  ps 
+ 1919  ./a.out 
+ 1920  vi pid.c
+ 1921  ./a.out 
+ 1922  gcc pid.c
+ 1923  ./a.out 
+ 1924  jobs
+ 1925  ./a.out 
+ 1926  jobs
+ 1927  vi pid.c
+ 1928  gcc pid.c
+ 1929  gcc pid.c -o pid
+ 1930  ./pid 
+ 1931  ps
+ 1932  ./pid &
+ 1933  ps
+ 1934  kill 7166
+ 1935  ps
+ 1936  ./pid &
+ 1937  jobs
+ 1938  fg
+ 1939  fg %1
+ 1940  bg %1
+ 1941  ls
+ 1942  ps
+ 1943  ./pid &
+ 1944  fg %1
+ 1945  jobs
+ 1946  renice
+ 1947  man renice
+ 1948  man nice
+ 1949  ps -aux
+ 1950  ps -aux | tail -10
+ 1951  ps
+ 1952  ps -fp 2558
+ 1953  top
+ 1954  strace -p 789
+ 1955  ls
+ 1956  ./orphan 
+ 1957  strace ./orphan 
+ 1958  jobs
+ 1959  ps
+ 1960  bg %1
+ 1961  ls
+ 1962  ps
+ 1963  ps -aux | grep "orphan"
+ 1964  ps -aux | grep -C "orphan"
+ 1965  ps -aux | grep -a "orphan"
+ 1966  ps -aux | grep -A "orphan"
+ 1967  ps -aux | grep -c "orphan"
+ 1968  ps -aux | grep -b "orphan"
+ 1969  man grep
+ 1970  ps -aux | grep -B 2 "orphan"
+ 1971  ps 
+ 1972  ps -aux | grep "720"
+ 1973  lsof
+ 1974  clear
+ 1975  lsof | head -4
+ 1976  cat /proc/sys/kernel/msgmax
+ 1977  ls /proc/sys/kernel/ | tail -10
+ 1978  ls /proc/sys/kernel/ | grep -i "msg"
+ 1979  man 2 read
+ 1980  man -k msg
+ 1981  man -k open
+ 1982  history | tail -10
+ 1983  ls
+ 1984  cd ../
+ 1985  ls
+ 1986  cd process/
+ 1987  ls
+ 1988  cd IPC/
+ 1989  ls
+ 1990  vi shm_reader.c 
+ 1991  ls
+ 1992  vi mutex.c 
+ 1993  man -k mutex
+ 1994  man -k pthread
+ 1995  man -3 pthread_join 
+ 1996  man 3 pthread_join 
+ 1997  man 3 pthread_create 
+ 1998  vi mutex.c 
+ 1999  shutdown
+ 2000  ls
+ 2001  git status
+ 2002  cd logesh/
+ 2003  git status
+ 2004  git add .
+ 2005  git commit -m "added pid functions"
+ 2006  git push 
+ 2007  ls
+ 2008  man -k i2c
+ 2009  man 8 i2cdetect
+ 2010  man 8 sensor-detect
+ 2011  man -k sensor
+ 2012  man -k sens
+ 2013  man 8 i2cget
+ 2014  ls /dev/
+ 2015  ls
+ 2016  cd chardrv/
+ 2017  ls
+ 2018  vi char_drv.c 
+ 2019  dmesg 
+ 2020  ls
+ 2021  insmod char_drv.ko 
+ 2022  sudo insmod char_drv.ko 
+ 2023  dmesg | tail -18
+ 2024  echo "hello" char_drv
+ 2025  modinfo chardrv
+ 2026  history | grep "char_dev"
+ 2027  history | grep "insmod"
+ 2028  history | grep "mod"
+ 2029  ls /dev/
+ 2030  history >> logs.txt
