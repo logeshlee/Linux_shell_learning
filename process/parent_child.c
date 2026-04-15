@@ -1,3 +1,4 @@
+ #include <sys/wait.h>
 #include <stdio.h>
 #include <unistd.h>
 
@@ -13,8 +14,11 @@ int main() {
     if (pid == 0) {
         // Child process
         printf("Child: PID=%d, PPID=%d\n", getpid(), getppid());
+        sleep(4);
     } else {
         // Parent process
+
+        waitpid(pid, NULL, WNOHANG);
         printf("Parent: PID=%d, Child PID=%d\n", getpid(), pid);
     }
 
